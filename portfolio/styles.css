@@ -1,0 +1,73 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* Section Styles */
+section {
+    padding: 50px;
+}
+
+section#about img {
+    max-width: 35%;
+    height: 35%;
+    margin-bottom: 5px;
+    ;
+}
+section h2 {
+    margin-top: 0;
+}
+
+section p {
+    line-height: 1.5;
+}
+
+/* Skills Section Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Projects Section Styles */
+.project, .project-2 {
+    margin-bottom: 50px;
+}
+
+.project img, .project-2 img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Contact Section Styles */
+#contact p {
+    margin: 0;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
